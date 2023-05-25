@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <q-input v-model="rua" label="rua"></q-input>
+      <q-input v-model="teste" label="rua"></q-input>
       <q-input label="número"></q-input>
       <q-input label="complemento"></q-input>
     </div>
@@ -10,7 +10,7 @@
 <script setup>
 import { watch, ref } from "vue";
 import axios from "axios";
-const rua = ref("");
+const teste = ref("");
 const props = defineProps({
   cep: {
     type: String,
