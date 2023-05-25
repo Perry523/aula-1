@@ -1,8 +1,12 @@
 <template>
   <div>
+        <!--> teste <-->
     <div class="row">
-      <q-input v-model="teste" label="rua"></q-input>
+        <!--> teste <-->
+        <q-input v-model="teste" label="rua"></q-input>
       <q-input label="número"></q-input>
+      <q-input label="número"></q-input>
+        <!--> teste <-->
       <q-input label="complemento"></q-input>
     </div>
   </div>
